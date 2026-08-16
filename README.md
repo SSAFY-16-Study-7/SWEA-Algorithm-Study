@@ -92,8 +92,7 @@ git push origin feature/week01-hong
 3. 질문, 개선 아이디어, 칭찬 등을 자유롭게 작성합니다.
     * *예시: "이 부분 $O (N^2)$ 대신 투 포인터를 쓰면 $O (N)$으로 줄일 수 있을 것 같아요!"*
     * *예시: "비트마스킹 조건식 처리가 깔끔하네요. 많이 배웠습니다."*
-4. 리뷰를 완료하면 **`Review changes`** $
-   ightarrow$ **`Comment`** 또는 **`Approve`**를 제출합니다.
+4. 리뷰를 완료하면 **`Review changes`** ⇒ **`Comment`** 또는 **`Approve`**를 제출합니다.
 
 ---
 
