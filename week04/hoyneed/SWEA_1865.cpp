@@ -41,7 +41,7 @@ void solve(const int test_case) {
       cin >> c;
     }
   }
-  // bit masking으로 모든 상태를 저장하고, 각 상태에 대한 방문 상태 기록
+  // bit masking으로 모든 상태를 저장하고, 각 상태에 대한 최대 확률 기록
   memo.assign(1 << N, -1.0);
   dfs(0, 100.0, 0);
   cout << '#' << test_case << ' ' << answer << '\n';
