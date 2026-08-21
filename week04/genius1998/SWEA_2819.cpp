@@ -5,6 +5,7 @@
 #include <iostream>
 #include <set>
 #include <iomanip>
+#include <algorithm>
 using namespace std;
 int n;
 int cnt = 0;
@@ -16,7 +17,7 @@ bool is_valid(int y, int x) {
 }
 bool valid_num[10000000];
 void dfs(int y, int x, int cnt, int cur_value) { // 각 row에서 n개의 col을 순회하면서 두었다고 가정
-	if (cnt == 7) { 
+	if (cnt == 7) {
 		if (!valid_num[cur_value]) {
 			valid_num[cur_value] = true;
 			ans++;
