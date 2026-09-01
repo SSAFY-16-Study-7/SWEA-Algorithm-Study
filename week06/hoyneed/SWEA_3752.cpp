@@ -4,14 +4,12 @@
 using namespace std;
 namespace {
 int N;
-int max_score;
 bitset<10'001> poss_scores;
-}  // namespace
+} // namespace
 
 static void solve(const int test_case) {
   poss_scores.reset();
   poss_scores.set(0);
-  max_score = 0;
   cin >> N;
   for (int i = 0; i < N; ++i) {
     int score;
@@ -21,7 +19,7 @@ static void solve(const int test_case) {
   cout << '#' << test_case << ' ' << poss_scores.count() << '\n';
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   int test_case;
